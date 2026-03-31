@@ -24,6 +24,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'PrepIT-Svendeprove', // Usually your GitHub org/user name.
   projectName: 'endure-docs', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -66,6 +67,10 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {
+          type: 'link',
+          href: 'docs/introduction',
+        },
         {
           type: 'localeDropdown',
           position: 'left',
