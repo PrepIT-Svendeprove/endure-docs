@@ -68,12 +68,14 @@ const config: Config = {
       },
       items: [
         {
-          type: 'link',
-          href: 'docs/introduction',
+          type: 'docSidebar',
+          label: 'Documentation',
+          sidebarId: 'docsSidebar',
+          position: 'left',
         },
         {
           type: 'localeDropdown',
-          position: 'left',
+          position: 'right',
         },
       ],
     },
