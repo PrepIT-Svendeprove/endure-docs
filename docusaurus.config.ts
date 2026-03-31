@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'PrepIT', // Usually your GitHub org/user name.
-  projectName: 'Endure', // Usually your repo name.
+  organizationName: 'PrepIT-Svendeprove', // Usually your GitHub org/user name.
+  projectName: 'endure-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
